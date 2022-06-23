@@ -1,0 +1,95 @@
+*{
+    margin: 0 ;
+    padding: 0;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+#hero{
+     background: url("./img/image 1.png") no-repeat center/cover;
+}
+.header{
+position: absolute;
+    top: 30px;
+    width: 1140px;
+position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+.headerLogo{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.headerBtn{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 200px;
+}
+.headLOG{
+     color: white;
+}
+.headMenu{
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    line-height: 1px;
+    font-size: 15px;
+}
+.headAlam{
+    width: 46px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px white;
+    background: rgba(37, 35, 35, 0.25);
+}
+.headButton{
+    width: 214px;
+    height: 36px;
+    background: rgba(37, 35, 35, 0.25);
+    border: solid 1px white;
+    color: white;
+    margin: 20px;
+    font-size: 15px;
+}
+.hero{
+    display: grid;
+    grid-template-columns: 1fr;
+ }
+.heroEzkiz{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    color: white;
+    margin-left: 90px;
+
+}
+.heroFonar{
+
+    width: 192px;
+    height: 6px;
+    background: #FFD700;
+    box-shadow: 0 4px 15px #DDAF2A;
+    transform: rotate(90deg);
+}
+.heroProject{
+    color: white;
+    font-size: 60px;
+    width: 250px;
+}
+.heroInner{
+    width: 283.08px;
+    color: #DDAF2A;
+    margin-left: 260px;
+    margin-top: -20px;
+}
+.cart{
+    width: 300px;
+}
